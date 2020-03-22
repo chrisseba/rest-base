@@ -5,6 +5,11 @@ public class Saludo {
 	private String saludo;
 	private String nombre;
 	
+	public Saludo( String nombre ) {
+		
+		this.nombre = nombre;	
+		this.saludo = "Hola " + this.nombre + "!";
+	}
 	
 	public String getSaludo() {
 		return saludo;
